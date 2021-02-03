@@ -437,16 +437,43 @@ color: white;
   padding: .5rem;
 }
 
-.inline-group .form-control {
-  text-align: center;
+
+.quantity {
+    display: flex;
+    justify-content: flex-start;
 }
 
-.form-control[type="number"]::-webkit-inner-spin-button,
-.form-control[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+.quantity button {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 0;
+    background: #fff
 }
 
+.quantity input {
+    border: none;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    width: 75px;
+    font-size: 20px;
+    color: #000;
+    font-weight: 300;
+}
+
+.total-price {
+    text-align:start;
+    font-size: 20px;
+    color: #fff;
+}
+
+.total-price .fa-rupee {
+    display: inline-block;
+    font-size: 90%;
+    margin-right: 5px;
+}
 
 
 .btn-menu-items {
