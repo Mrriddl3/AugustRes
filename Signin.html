@@ -6,19 +6,24 @@
         <title>Navbar</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+	  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
         <link rel="stylesheet" href="styles.css">
-	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      
+	 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     </head>
   <body>
-        <header>
+              <header>
             <a class="logo" href="/"><img src="images/august.png" alt="logo"></a>
             <nav>
                 <ul class="nav__links">
-                    <li><a href="#">HOME</a></li>
+                    <li><a href="index.html">HOME</a></li>
                     <li><a href="Menu.html">MENU</a></li>
                     <li><a href="#">ABOUT</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
-					<li><a href="signin.html">SIGN IN</a><span>/</span> <a href="Signup.html">SIGN UP</a></li>
+					<li><a href="#">SIGN IN  </a> <span>/</span> <a href="Signup.html"> SIGN UP</a></li>
 				<li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
                 </ul>
             </nav>
@@ -32,46 +37,38 @@
                 <a href="#">Home</a>
                 <a href="#">Menu</a>
                 <a href="#">About</a>
-                <a href="#">Contact</a>
+                <a href="contact.html">Contact</a>
 				<a href="#">Sign in</a>
 				<a href="#"> Sign up</a>
 				<a href="#"><i class="fa fa-shopping-cart"></i></a>
 
             </div>
   </div>
-		<img src="images/banner.jpg" alt="Nature" class="responsive" width="600" height="400">
 		
-  <div class="container">
-    <div class="heading">
-    </div>
-          <div class="card">
-        <div class="card-header">
-         <img class="card-img" src="images/7.jpg" alt="Rome" />
-        </div>
-        <div class="card-body">
-         
-          <a href="#" class="btn">MENU</a>
-        </div>
-      </div>
-     <div class="card">
-        <div class="card-header">
-         <img class="card-img" src="images/7.jpg" alt="food" />
-        </div>
-        <div class="card-body">
-         
-          <a href="#" class="btn">SPECIALS</a>
-        </div>
-    </div>
-      <div class="card">
-        <div class="card-header">
-         <img class="card-img" src="images/7.jpg" alt="food" />
-        </div>
-        <div class="card-body">
-         
-          <a href="#" class="btn">MAP</a>
-        </div>
-      </div>
-		  </div>
+	 
+		
+  
+
+<div class="contact-section">
+
+	<div class="boxed">ACCOUNT</div>
+
+  <form class="contact-form" action="#" method="#">
+    <input type="text" class="contact-form-text" placeholder="Email">
+    <input type="email" class="contact-form-text" placeholder="Password">
+	  <div class="forgot"><p>Forgot your password?</p></div>
+    <input type="submit" class="contact-form-btn" value="Sign in">
+	  <div class="account"><p>Create account</p></div>
+  </form>
+</div>
+
+
+
+		
+  
+	  
+	  
+		  
 		 <footer>
              <div class="main-content">
         <div class="footer-box">
@@ -99,5 +96,6 @@
 			 </div>
         </footer>
         <script type="text/javascript" src="mobile.js"></script>
-    </body>
+  <script type="text/javascript" src="javascript.js"></script>
+  </body>
 </html>
